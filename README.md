@@ -18,6 +18,7 @@
   ```
   > :warning: DO NOT REBOOT , GET YOUR IMG `DIRECTLY`
 * After that you can use Win32diskmanger to get your whole IMG ,and then execute pishrink.sh through WSL2 in Win10
+* IF you have shrunk the img through PIshrink, you can execute `resize_service.sh` once then reboot ,you can still get full space for your tf card.
 
 
 # PiShrink #
