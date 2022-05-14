@@ -4,8 +4,16 @@
 * Before GETTING your Pi-IMG，you have to use this script or restart the resize service on your terminal
 * Download this scrpit **resize-service-restart.sh** on your OrangePi
   ```bash
-  git clone https://github.com/wintimes/PiShrink-For-Orangepi.git
-  cd ~/PiShrink-For-Orangepi
+  git clone https://github.com/wintimes/OrangePiShrink.git
+  cd ~/OrangePiShrink
+  sudo bash resize-service-restart.sh
+  ```
+  OR
+
+  ```bash
+  wget https://raw.githubusercontent.com/wintimes/OrangePiShrink/master/resize-service.sh
+  ```
+  ```bash
   sudo bash resize-service-restart.sh
   ```
   > :warning: DO NOT REBOOT , GET YOUR IMG `DIRECTLY`
