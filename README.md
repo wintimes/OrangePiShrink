@@ -1,4 +1,17 @@
 
+# Special For OrangePi #
+> FOR expanding the Filesystem when image booted the first time
+* Before GETTING your Pi-IMG，you have to use this script or restart the resize service on your terminal
+* Download this scrpit **resize-service-restart.sh** on your OrangePi
+  ```bash
+  git clone https://github.com/wintimes/PiShrink-For-Orangepi.git
+  cd ~/PiShrink-For-Orangepi
+  sudo bash resize-service-restart.sh
+  ```
+  > :warning: DO NOT REBOOT , GET YOUR IMG `DIRECTLY`
+* After that you can use Win32diskmanger to get your whole IMG ,and then execute pishrink.sh through WSL2 in Win10
+
+
 # PiShrink #
 
 PiShrink is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot. This will make putting the image back onto the SD card faster and the shrunk images will compress better.
