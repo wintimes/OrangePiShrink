@@ -1,7 +1,7 @@
 
 # Special For OrangePi #
 > FOR expanding the Filesystem when image booted the first time
-* Before GETTING your Pi-IMG，you have to use this script or restart the resize service on your terminal
+* Before GETTING your Pi-IMG，you have to use this script `resize-service-restart.sh` or restart the resize service on your terminal
 * Download this scrpit **resize-service-restart.sh** on your OrangePi
   ```bash
   git clone https://github.com/wintimes/OrangePiShrink.git
@@ -20,7 +20,11 @@
 * After that you can use Win32diskmanger to get your whole IMG ,and then execute pishrink.sh through WSL2 in Win10
 * IF you have shrunk the img through PIshrink, you can execute `resize_service.sh` once then reboot ,you can still get full space for your tf card.
 
-* IF you have shrunk the img through PIshrink, you can execute `resize_service.sh` once then reboot ,you can still get full space for your tf card.
+* The best way to shrink the smallest IMG -----WSL2
+```bash
+sudo pishrink.sh -Z -a pi.img
+```
+
 
 
 # PiShrink #
